@@ -1,0 +1,58 @@
+.house {
+    width: 500px;
+    height: 421px;
+    border: 5px solid lightgray;
+    background: royalblue;
+    position: relative;
+  }
+
+  .wall {
+    position: absolute;
+    width: 370px;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: rgb(11, 11, 83);
+    left: 65px;
+    top: 193px;
+  }
+
+  .door {
+    position: absolute;
+    width: 86px;
+    height: 117px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: rgb(252, 199, 100);
+    left: 207px;
+    top: 279px;
+  }
+
+  .selling {
+    position: relative;
+    width: 300px;
+    height: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: rgb(252, 199, 100);
+    left: 98px;
+    top: 185px;
+    display: block;
+    z-index: 21;
+
+  }
+
+
+  .roof {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 240px solid transparent;
+    border-right: 240px solid transparent;
+    background: transparent;
+    border-bottom: 172px solid rgb(11, 11, 83);
+    left: 10px;
+    top: 21px;
+  }
